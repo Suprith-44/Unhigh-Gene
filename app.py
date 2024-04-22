@@ -142,7 +142,7 @@ def homepage():
     st.markdown('<h1 style="color:white;">Welcome to Unhigh-Gene</h1>', unsafe_allow_html=True)
 
     # Website description
-    description = "Unhigh-Gene is a cutting-edge genetic analysis platform that empowers you to unlock the secrets of your DNA. Powered by advanced algorithms and a user-friendly interface, our tool provides unprecedented insights into your genetic makeup, enabling you to make informed decisions about your health and well-being."
+    description = "Unhigh-Gene analyzes both parental and grandparental genetic data and provides comprehensive disease predictions, empowering couples to make informed decisions about family planning and prevent the transmission of genetic disorders to their offspring."
     st.markdown(f'<p style="color:white; text-align:center;">{description}</p>', unsafe_allow_html=True)
 
     # Button to redirect to the main page
